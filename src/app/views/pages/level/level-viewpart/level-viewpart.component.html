@@ -167,8 +167,7 @@
 
     <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 29">
         <!--------------------------10.3.Open Story----------------------------------------->
-        <h4 class="rounded bg-light py-3 px-4">Open Story</h4>
-        <app-word-help [data]="wordHelp_lesson_2" ></app-word-help>
+        <app-open-story [data]=""></app-open-story>
     </div>
 
     <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 30">
@@ -190,6 +189,64 @@
         <app-word-help [data]="wordHelp_lesson_2" ></app-word-help>
     </div>
 </div>
+
+
+
+
+
+<!-----------------lesson - 4 (Annual Haircut Day) -->
+<div>
+
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 33">
+    <!---------------------------4.1.introduction---------------------------->
+    <app-introduction [data]="introduction_lesson_intro1"></app-introduction>
+    </div>
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 34">
+    <!---------------------------4.2.introduction---------------------------->
+    <app-introduction [data]="introduction_lesson_intro1"></app-introduction>
+    </div>
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 35">
+    <!--------------------------10.4.Lets Talk----------------------------------------->
+    <app-lets-talk></app-lets-talk>
+    </div>
+    
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 36">
+    <!--------------------------10.3.Open Story----------------------------------------->
+    <h4 class="rounded bg-light py-3 px-4">Open Story: Match the Caption</h4>
+    <app-open-story [data]=""></app-open-story>
+    </div>
+    
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 37">
+    <!---------------------------4.1.introduction---------------------------->
+    <app-introduction [data]="introduction_lesson_intro2"></app-introduction>
+    </div>
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 38">
+    <!---------------------------4.1.introduction---------------------------->
+    <app-introduction [data]="introduction_lesson_intro2"></app-introduction>
+    </div>
+    
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 39">
+    <!--------------------------10.4.Lets Talk----------------------------------------->
+    <app-lets-talk></app-lets-talk>
+    </div>
+    
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 40">
+    <!--------------------------10.5. Think and Write---------------------------------------->
+    <app-think-and-write [data]="thinkAndWrite_lesson_3"></app-think-and-write>
+    </div>
+    
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 41">
+    <!--------------------------10.6.Word help----------------------------------------->
+    <h4 class="rounded bg-light py-3 px-4">word Help</h4>
+    <app-word-help [data]="wordHelp_lesson_2" ></app-word-help>
+    </div>
+    </div>
+
+
+
+
+
+
 
 
 <div class="text-center">

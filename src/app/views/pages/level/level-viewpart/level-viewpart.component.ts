@@ -285,7 +285,7 @@ export class LevelViewpartComponent implements OnInit {
       instruction_1:{
         en_text: "Drag and drop the right person to complete the pair. Then, click on the record button to say the name of the relationship. e.g. husband and wife.",
         ta_text: "జతను పూర్తి చేయడానికి సరియైన వ్యక్తిని డ్రాగ్ చేసి మరియు డ్రాప్ చేయండి. తరువాత, సంబంధం పేరుని చెప్పడానికి రికార్డ్ బటన్ పైన క్లిక్ చేయండి. ఉదా. భర్త మరియు భార్య",
-        audio: "assets/collection/lesson-8/picture-play/instruction-1.mp3"
+        audio: "assets/collection/lesson-10/picture-play/instruction-1.mp3"
       },
       src: "https://h5p.org/h5p/embed/1356282"
     }
